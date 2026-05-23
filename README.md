@@ -7,6 +7,10 @@ yt-dlp's built-in `SubstackIE` covers Substack posts, podcasts, and on-demand
 videos (`*.substack.com/p/<slug>`), but not live streams or their replays.
 This plugin fills that gap.
 
+The gap is tracked upstream as
+[yt-dlp/yt-dlp#16784](https://github.com/yt-dlp/yt-dlp/issues/16784); if yt-dlp
+adds native support, this plugin becomes unnecessary.
+
 ## What it extracts
 
 - Signed Mux HLS playback URL (all renditions: 270p / 360p / 540p typical)
